@@ -25,9 +25,7 @@ function testArray() {
         score += isCorrect ? grades[i] : 0;
     }
 
-    alert(`Результаты теста:
-    Правильные ответы: ${count} из ${questions.length}
-    Общая оценка: ${score}`);
+    alert(`Результаты теста:\n\nПравильные ответы: ${count} из ${questions.length}\n\nОбщая оценка: ${score}`);
 }
 //2
 function validateName() {
